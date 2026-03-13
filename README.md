@@ -10,27 +10,27 @@ dia a dia de quem trabalha com cadastro de infraestrutura urbana.
 
 | Script | O que faz | Quando usar |
 |--------|-----------|-------------|
-| [Mover por Proximidade](docs/01_mover_por_proximidade.md) | Move pontos para a estrutura mais próxima dentro de um raio | Quando não há campo de vínculo disponível |
-| [Mover por Referência](docs/02_mover_por_referencia.md) | Move pontos usando campo-chave como vínculo | Quando há ID ou código de referência |
-| [Selecionar Isolados](docs/03_selecionar_isolados.md) | Seleciona pontos sem vizinhos dentro de um raio | Identificar registros novos não presentes na base |
-| [Detector de Alvos](docs/04_detector_de_alvos.md) | Gera polígonos de áreas com potencial de cadastro | Análise cruzada de múltiplas camadas |
+| [Mover por Proximidade](/docs/01_mover_por_proximidade.md) | Move pontos para a estrutura mais próxima dentro de um raio | Quando não há campo de vínculo disponível |
+| [Mover por Referência](/docs/02_mover_por_referencia.md) | Move pontos usando campo-chave como vínculo | Quando há ID ou código de referência |
+| [Selecionar Isolados](/docs/03_selecionar_isolados.md) | Seleciona pontos sem vizinhos dentro de um raio | Identificar registros novos não presentes na base |
+| [Detector de Alvos](/docs/04_detector_de_alvos.md) | Gera polígonos de áreas com potencial de cadastro | Análise cruzada de múltiplas camadas |
 
 ## Exemplos visuais
 
 ### Detector de Alvos
 Polígonos de áreas com potencial de cadastro gerados a partir do cruzamento entre postes, rede BT e IP existente.
 
-![Detector de Alvos - resultado](prints/detectar_02.png)
+![Detector de Alvos - resultado](/prints/detectar_02.png)
 
 ### Mover por Referência
 Pontos deslocados (laranja) sendo corrigidos para a posição de referência (branco) usando campo-chave como vínculo.
 
-![Mover por Referência - antes e depois](prints/mover_feições_por_referencia_01.png)
+![Mover por Referência - antes e depois](/prints/mover_feições_por_referencia_01.png)
 
 ### Selecionar Isolados
 Identificação de pontos sem vizinhos na base de referência dentro do raio configurado.
 
-![Selecionar Isolados](prints/isolados_01.png)
+![Selecionar Isolados](/prints/isolados_01.png)
 
 ## Como instalar
 
