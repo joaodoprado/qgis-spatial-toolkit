@@ -35,4 +35,4 @@ Cada ferramenta tem documentação própria em [docs/](docs/).
  
 ---
  
-[João Vitor do Prado] · [linkedin.com/in/joao-do-prado] · [São Luís, Maranhão]
+João Vitor do Prado · linkedin.com/in/joao-do-prado · São Luís, Maranhão
