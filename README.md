@@ -13,7 +13,7 @@ As ferramentas deste projeto foram aplicadas em ambiente profissional, gerando:
 - Redução de tempo de execução de análises de ~20h para ~2h
 - Ganho médio de produtividade de aproximadamente 90%
 - Automação de processos de fiscalização e validação de dados geoespaciais
-- Aplicação em múltiplos municípios
+- Aplicação direta em rotinas operacionais reais de cadastro e fiscalização
 
 ## Ferramentas
 
@@ -26,8 +26,11 @@ As ferramentas deste projeto foram aplicadas em ambiente profissional, gerando:
 
 ## Exemplos visuais
 
-### Detector de Alvos
-Polígonos de áreas com potencial de cadastro gerados a partir do cruzamento entre postes, rede BT e IP existente.
+## Destaque: Detector de Alvos
+
+Ferramenta desenvolvida para identificar áreas com potencial de cadastro não registrado a partir do cruzamento entre múltiplas camadas geoespaciais.
+
+Utilizada para direcionar ações de fiscalização e expansão de cadastro com base em análise espacial.
 
 ![Detector de Alvos - resultado](/prints/detectar_02.png)
 
@@ -64,6 +67,18 @@ para testar cada ferramenta sem precisar de dados reais.
 
 Cada ferramenta tem documentação própria em [`docs/`](docs/).
 
+## Tecnologias
+
+- QGIS (Processing Framework)
+- Python (PyQGIS)
+- Operações espaciais (proximidade, interseção, análise de vizinhança)
+
 ---
 
-João Vitor do Prado · [linkedin.com/in/joao-do-prado](https://www.linkedin.com/in/joao-do-prado/) · São Luís, Maranhão
+---
+
+Projeto desenvolvido com base em problemas reais de cadastro de infraestrutura urbana.
+
+João Vitor do Prado  
+📍 São Luís, Maranhão  
+🔗 https://www.linkedin.com/in/joao-do-prado
